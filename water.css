@@ -3,12 +3,15 @@ background-image: url('waterfall.gif');
 background-size: cover;
 }
 
-h1 {
+h1, p {
 text-align: center;
 color: white;
 }
- 
 
+
+button {
+    
+}
 /* GLOBAL STYLES */
 
 
@@ -21,7 +24,7 @@ color: white;
   } */
   
   /* DEMO-SPECIFIC STYLES */
-  
+
   .typewriter h1 {
 
     padding-top: 5em;

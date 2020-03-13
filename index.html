@@ -23,15 +23,41 @@
       <br>
       <br>
       <br>
-      <br>
-      <br>
 
     <h1>
             <span>H</span>
             <span>2</span>
             <span>O</span>
     </h1>
+
+   <br>
+      <br>
+      <br>
+
     <h1>Water Fun Facts!</h1>
+
+    <button onclick="myFunction()" id="select">Pick text</button>
+  <div class="main">
+    <p id="result"></p>
+  </div>
+  <footer class="footer">30% of fresh water is in the ground.</footer>
+
+<script>
+function myFunction() {
+  idArray = new Array()
+  idArray [1] = "30% of fresh water is in the ground."
+  idArray [2] = "Second paragraph text"
+  idArray [3] = "Third paragraph text"
+  idArray [4] = "Fourth paragraph text"
+  idArray [5] = "Fifth paragraph text"
+
+  document.getElementById("select").onclick = myFunction;
+  randomParagraph = Math.floor(Math.random()*5);
+
+  document.getElementById("result").innerHTML = idArray[randomParagraph + 1];       
+}
+</script>
+
     <p>30% of fresh water is in the ground.</p>
     <p>1.7% of the world’s water is frozen and therefore unusable.</p>
     <p>Approximately 400 billion gallons of water are used in the United States per day</p>
