@@ -56,3 +56,9 @@ button {
     from, to { border-color: transparent }
     50% { border-color: rgba(255, 166, 0, 0) }
   }
+/* Evelyn Duarte: The audio button is displayed as a table just to have it as a table element. The 0 is for the top and the bottom and auto is for the left and right. The padding for the top was changed to 20px */
+  audio {
+    display: table;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
